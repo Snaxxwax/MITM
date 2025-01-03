@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sourceRoot": "/home/kalux/claude/mitm.life",
+	"sources": [
+		"assets/css/custom.css"
+	],
+	"sourcesContent": [
+		":root {\n  --bg: #0a0a0a;\n  --text: #e6e6e6;\n  --accent: #1ed760;\n  --secondary: #121212;\n  --hover: #282828;\n}\n\n[data-theme=\"light\"] {\n  --bg: #ffffff;\n  --text: #2d3748;\n  --accent: #3182ce;\n  --secondary: #f8f8f8;\n  --hover: #eaeaea;\n}\n\nbody {\n  background-color: var(--bg);\n  color: var(--text);\n}\n\n/* Content styles */\n.content article header h1,\n.navigation a, \n.navigation span,\n.list ul li .title,\n.content .post .post-title,\n.social-icons a {\n  color: var(--accent);\n}\n\n.content .post .post-meta {\n  color: var(--text);\n  opacity: 0.7;\n}\n\n.content article p {\n  color: var(--text);\n}\n\n.social-icons a:hover {\n  color: var(--text);\n}\n\n/* Code and blockquote styles */\n.content code,\n.content pre,\n.content blockquote {\n  background-color: var(--secondary);\n}\n\n.content blockquote {\n  border-left: 2px solid var(--accent);\n}\n\n/* Theme transition */\n* {\n  transition: background-color 0.3s, color 0.3s;\n}\n"
+	],
+	"names": [],
+	"mappings": "CAAC,AAAD,IAAK,CAAC;EACJ,IAAI,CAAA,QAAC;EACL,MAAM,CAAA,QAAC;EACP,QAAQ,CAAA,QAAC;EACT,WAAW,CAAA,QAAC;EACZ,OAAO,CAAA,QAAC,GACT;;CAED,AAAA,AAAA,UAAC,CAAW,OAAO,AAAlB,EAAoB;EACnB,IAAI,CAAA,QAAC;EACL,MAAM,CAAA,QAAC;EACP,QAAQ,CAAA,QAAC;EACT,WAAW,CAAA,QAAC;EACZ,OAAO,CAAA,QAAC,GACT;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,SAAS;EAC3B,KAAK,EAAE,WAAW,GACnB;;AAED,oBAAoB;AACpB,AAAA,QAAQ,CAAC,OAAO,CAAC,MAAM,CAAC,EAAE;AAC1B,WAAW,CAAC,CAAC;AACb,WAAW,CAAC,IAAI;AAChB,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,MAAM;AAClB,QAAQ,CAAC,KAAK,CAAC,WAAW;AAC1B,aAAa,CAAC,CAAC,CAAC;EACd,KAAK,EAAE,aAAa,GACrB;;AAED,AAAA,QAAQ,CAAC,KAAK,CAAC,UAAU,CAAC;EACxB,KAAK,EAAE,WAAW;EAClB,OAAO,EAAE,GAAG,GACb;;AAED,AAAA,QAAQ,CAAC,OAAO,CAAC,CAAC,CAAC;EACjB,KAAK,EAAE,WAAW,GACnB;;AAED,AAAA,aAAa,CAAC,CAAC,CAAC,KAAK,CAAC;EACpB,KAAK,EAAE,WAAW,GACnB;;AAED,gCAAgC;AAChC,AAAA,QAAQ,CAAC,IAAI;AACb,QAAQ,CAAC,GAAG;AACZ,QAAQ,CAAC,UAAU,CAAC;EAClB,gBAAgB,EAAE,gBAAgB,GACnC;;AAED,AAAA,QAAQ,CAAC,UAAU,CAAC;EAClB,WAAW,EAAE,GAAG,CAAC,KAAK,CAAC,aAAa,GACrC;;AAED,sBAAsB;AACtB,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,iCAAiC,GAC9C"
+}

@@ -1,0 +1,41 @@
+baseURL = "http://mitm.life"
+title = "Man In The Middle"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+author = "MAN_IN_THE_MIDDLE"
+info = "Securing the space between systems and users"
+description = "Penetration testing, security research, and vulnerability assessment"
+keywords = "cybersecurity,penetration testing,security research,vulnerability assessment"
+avatarURL = ""
+dateFormat = "January 2, 2006"
+since = 2024
+colorScheme = "dark"
+hideColorSchemeToggle = false
+customSCSS = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
